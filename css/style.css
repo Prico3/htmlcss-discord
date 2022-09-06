@@ -87,6 +87,7 @@ header{
 .block1{
     align-items: center;
     justify-content: center;
+    padding: 120px 40px;
 }
 
 .sfondo{
@@ -98,8 +99,8 @@ header{
 .block2{
 
     align-items: center;
-    justify-content: center;
-    height: 400px;
+    justify-content: space-around;
+    padding: 40px 20px;
 
     
 }
@@ -112,7 +113,6 @@ header{
 
 .testo2{
     width: 25%;
-    line-height: 1.625;
 
   
 }
@@ -120,31 +120,19 @@ header{
 .block3{
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
-    height: 400px;
-
-    /* DEBUG */
+    justify-content: space-around;
     background-color: grey;
-    border: 1px solid black;
+    padding: 40px 20px;
+
 }
 
 .img3{
-    height: 350px;
     width: 45%;
-
-    /* DEBUG */
-    background-color: lightblue;
-    border: 1px solid black;
-
+    height: 350px;
 }
 
 .testo3{
-    height: 350px;
     width: 25%;
-
-    /* DEBUG */
-    background-color: pink;
-    border: 1px solid black;
 }
 
 .block5{
